@@ -48,5 +48,5 @@ EXPOSE 80
 # EXPOSE 3000
 
 # Use baseimage-docker's init system.
-CMD ["/sbin/my_init"]
-# CMD ["rails", "server"]
+# CMD ["/sbin/my_init"]
+CMD ["rails", "server"]
